@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ZAPIOLA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-frente">
+        <li class="text">FRENTE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-living--comedor">
+        <li class="text">LIVING / COMEDOR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-ingreso-toilet---habitacion-principal">
+        <li class="text">INGRESO TOILET - HABITACION PRINCIPAL</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-toilet">
+        <li class="text">TOILET</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-habitacion-principal">
+        <li class="text">HABITACION PRINCIPAL</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-bao-en-suite">
+        <li class="text">BAÑO EN SUITE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-cocina">
+        <li class="text">COCINA</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-pasillo-de-distribucion-cuartos---bao">
+        <li class="text">PASILLO DE DISTRIBUCION CUARTOS - BAÑO</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-cuarto-i">
+        <li class="text">CUARTO I</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-cuarto-ii">
+        <li class="text">cuarto II</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-bao">
+        <li class="text">BAÑO</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-bao-ii">
+        <li class="text">BAÑO II</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-acceso-al-parque">
+        <li class="text">ACCESO AL PARQUE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-pileta-">
+        <li class="text">PILETA </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-parque-i">
+        <li class="text">PARQUE I</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-parque-ii">
+        <li class="text">PARQUE II</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-ingreso-al-galpon">
+        <li class="text">INGRESO AL GALPON</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-galpon">
+        <li class="text">GALPON</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
